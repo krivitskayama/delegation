@@ -1,0 +1,25 @@
+.list__container::before{
+    content:"-";
+}
+.list__container_min::before{
+    content:"+";
+}
+.list__container{
+    list-style: none;
+}
+.list__item{
+    padding-left:20px;
+}
+.hide{
+    display:none;
+}
+.new__list{
+    visibility: visible;
+    display: inherit;
+
+    
+}
+.st{
+    width:100px;
+    height: 100px;
+}

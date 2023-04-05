@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/search.css">
+    <script src="js/main.js" defer></script>
+    <title>InTune</title>
+</head>
+<body>
+    <span>Делегирование событий</span>
+    <span>Пример 1</span>
+    <p>при клике на элемент списка - он скрывается, и значок списка меняется на "+"</p>
+    <p>при клике на "+" - все элементы списка отображаются, и значок списка меняется на "-"</p>
+    <p>обработчик клика привязан к родителю - UL  и в нем анализируется event.target</p>
+<ul class="list__container">
+    <li class="list__item">first</li>
+    <li class="list__item">second</li>
+    <li class="list__item">third</li>
+    <li class="list__item">fourth</li>
+</ul>
+<br><br>
+    <span>Делегирование событий</span>
+    <span>Пример 2</span>
+    <p>В контейнере кнопки - статические и динамическая</p>
+    <p>при наведении курсора на кнопку - меняется ее размер</p>
+    <p>обработчик mouseover привязан к родителю - DIV  и в нем анализируется event.target</p>
+
+<div class="div_cont" draggable="true">
+    <button class="item_cont">click me</button>
+    <button class="item_cont">click me</button>
+    <button class="item_cont">click me</button>
+</div>
+</body>
+
